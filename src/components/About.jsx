@@ -59,7 +59,7 @@ function About() {
         <h2 className="text-lg md:text-2xl font-semibold text-green-600 mt-6 border-l-4 border-green-500 pl-3">
           Project Guide
         </h2>
-        <p className="text-black mt-2">Deepshikha</p>
+        <p className="text-black mt-2"> Miss. Deepshikha</p>
 
         {/* Conclusion */}
         <h2 className="text-lg md:text-2xl font-semibold text-green-600 mt-6 border-l-4 border-green-500 pl-3">

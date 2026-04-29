@@ -51,13 +51,13 @@ function Ct() {
       const response = await axios.post(url, formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
-      console.log(response);
+     
       
 
       setResult(response.data);
 
     } catch (error) {
-      console.error(error);
+      
       alert("Error while predicting");
     } finally {
       setLoading(false);

@@ -65,16 +65,14 @@ function XRay() {
           
         }
       );
-      console.log( response);
-
-      console.log("✅ API RESPONSE:", response.data);
+     
 
       const data = response.data;
 
       // ✅ Strict validation
       if (!data || data.error) {
         alert(data?.error || "Invalid response from server");
-        println("❌ API ERROR DETAILS:", data);
+        
         return;
       }
 
